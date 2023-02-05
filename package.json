@@ -1,0 +1,36 @@
+{
+  "name": "nodegraphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "dev": "nodemon dist/index.js",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.7",
+    "@types/express": "^4.17.11",
+    "@types/node": "^17.0.15",
+    "nodemon": "^2.0.15",
+    "prettier": "2.5.1",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "apollo-server": "^3.6.2",
+    "apollo-server-core": "^3.11.1",
+    "apollo-server-express": "^3.6.2",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "graphql": "15",
+    "pg": "^8.7.3",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1",
+    "typeorm": "^0.2.41"
+  }
+}
